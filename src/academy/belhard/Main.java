@@ -17,8 +17,8 @@ public class Main {
 //        else if (month == 9 || month == 10 || month == 11) {
 //            System.out.print("Осень");
 //        }
-
-
+//
+//
 //        int month = 8;
 //        switch (month) {
 //            case 12:
@@ -44,10 +44,9 @@ public class Main {
 //        }
 
 
-//        int [] array = {0,1,2,3,4,5,6,7,8,9};
-//
-//        for (int i=9; i< array.length; i--)
-//        { System.out.println(array[i]); }
+        int [] array1 = {0,1,2,3,4,5,6,7,8,9};
+        for (int i = array1.length-1; i >= 0; i--)
+        { System.out.println(array1[i]); }
 
 //        String [][] array2 = new String[3][3];
 //        array2 [0][0] = "1[0][0]";
