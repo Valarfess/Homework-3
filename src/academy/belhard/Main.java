@@ -48,22 +48,22 @@ public class Main {
         for (int i = array1.length-1; i >= 0; i--)
         { System.out.println(array1[i]); }
 
-//        String [][] array2 = new String[3][3];
-//        array2 [0][0] = "1[0][0]";
-//        array2 [0][1] = "2[0][1]";
-//        array2 [0][2] = "3[0][2]";
-//        array2 [1][0] = "4[1][0]";
-//        array2 [1][1] = "5[1][1]";
-//        array2 [1][2] = "6[1][2]";
-//        array2 [2][0] = "7[2][0]";
-//        array2 [2][1] = "8[2][1]";
-//        array2 [2][2] = "9[2][2]";
-//        for (int i = 0; i < array2.length; i++) {
-//            for (int j = 0; j < array2[i].length; j++) {
-//                System.out.print(array2[i][j] + "\t");
-//            }
-//            System.out.println();
-//        }
+        String [][] array2 = new String[3][3];
+        array2 [0][0] = "1[0][0]";
+        array2 [0][1] = "2[0][1]";
+        array2 [0][2] = "3[0][2]";
+        array2 [1][0] = "4[1][0]";
+        array2 [1][1] = "5[1][1]";
+        array2 [1][2] = "6[1][2]";
+        array2 [2][0] = "7[2][0]";
+        array2 [2][1] = "8[2][1]";
+        array2 [2][2] = "9[2][2]";
+        for (int i = 0; i < array2.length; i++) {
+            for (int j = 0; j < array2[i].length; j++) {
+                System.out.print(array2[i][j] + "\t");
+            }
+            System.out.println();
+        }
 
 
 
