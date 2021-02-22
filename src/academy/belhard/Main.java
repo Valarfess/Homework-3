@@ -44,29 +44,43 @@ public class Main {
 //        }
 
 
-        int [] array1 = {0,1,2,3,4,5,6,7,8,9};
-        for (int i = array1.length-1; i >= 0; i--)
-        { System.out.println(array1[i]); }
+//        int [] array1 = {0,1,2,3,4,5,6,7,8,9};
+//        for (int i = array1.length-1; i >= 0; i--)
+//        { System.out.println(array1[i]); }
 
-        String [][] array2 = new String[3][3];
-        array2 [0][0] = "1[0][0]";
-        array2 [0][1] = "2[0][1]";
-        array2 [0][2] = "3[0][2]";
-        array2 [1][0] = "4[1][0]";
-        array2 [1][1] = "5[1][1]";
-        array2 [1][2] = "6[1][2]";
-        array2 [2][0] = "7[2][0]";
-        array2 [2][1] = "8[2][1]";
-        array2 [2][2] = "9[2][2]";
-        for (int i = 0; i < array2.length; i++) {
-            for (int j = 0; j < array2[i].length; j++) {
-                System.out.print(array2[i][j] + "\t");
+        int[][] squareArray = new int[2][2];
+        squareArray[0][0] = 1;
+        squareArray[0][1] = 2;
+        squareArray[1][0] = 3;
+        squareArray[1][1] = 4;
+        for (int i = 0; i < squareArray.length; i++) {
+            for (int j = 0; j < squareArray[i].length; j++) {
+                System.out.print(squareArray[i][j] + "[" + i + "][" + j + "]" + "\t");
             }
             System.out.println();
         }
-
-
-
+//
+//        String [][] squareArray2 = new String[2][2];
+//        squareArray2[0][0] = "[0][0]";
+//        squareArray2[0][1] = "[0][1]";
+//        squareArray2[1][0] = "[1][0]";
+//        squareArray2[1][1] = "[1][1]";
+//           for (int x = 0; x < squareArray2.length; x++) {
+//                for (int y = 0; y < squareArray2[x].length; y++) {
+//                    System.out.print(squareArray2[x][y] + "\t");
+//                    }
+//                    System.out.println();
+//                }
         // write your code here
     }
 }
+
+
+
+
+//for (int i = 0; i < squareArray.length; i++) {
+//        for (int j = 0; j < squareArray[i].length; j++) {
+//                System.out.print(squareArray[i][j] + "\t");
+//            }
+//            System.out.println();
+//        }
